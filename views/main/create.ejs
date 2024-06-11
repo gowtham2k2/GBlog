@@ -1,0 +1,17 @@
+<!-- prettier-ignore -->
+<%- include("../partials/header.ejs") %>
+
+  <% if(locals.alert){ %>
+    <p>
+      <%= alert %>
+    </p>
+    <% } %>
+      <form class="container d-flex flex-column gap-2 mt-5 create-form" action="/create" method="post">
+        <label for="content">Content Message:</label>
+        <textarea name="content" id="content" placeholder="enter the Message here" rows="10" required></textarea>
+        <label for="author">By:</label>
+        <input type="text" name="author" id="author" required>
+        <input type="submit" value="Submit">
+      </form>
+      <!-- prettier-ignore -->
+      <%- include("../partials/footer.ejs") %>

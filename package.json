@@ -1,0 +1,25 @@
+{
+  "name": "gblogs",
+  "version": "1.0.0",
+  "description": "A website for blogging",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "web-dev",
+    "learn",
+    "design"
+  ],
+  "author": "Gowtham",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "moment": "^2.30.1"
+  }
+}
